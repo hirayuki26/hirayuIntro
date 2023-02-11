@@ -1,0 +1,304 @@
+* {
+    font-family: 'Damion', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header p  {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+header a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.firstView h1 {
+    font-size: 64px;
+    text-align: center;
+    padding-top: 320px;
+}
+
+.firstView p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.firstView  {
+    background-image: url(images/geo.jpg);
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    background-size: cover;
+    height: 800px;
+}
+
+.about {
+    padding: 180px;
+}
+
+.profile h2 {
+    font-size: 48px;
+    letter-spacing: 0.1em;
+}
+
+.profile h3 {
+    font-size: 30px;
+    margin-top: 72px;
+}
+
+.profile p {
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.profile img {
+    width: 440px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.profile .profile-text {
+    width: 500px;
+    float: left;
+}
+
+.profile ul, ol {
+    padding: 0;
+    margin-top: 30px;
+}
+  
+.profile ul li {
+    position: relative;
+    list-style-type: none!important;/*ポチ消す*/
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    background: #dbebf8;
+    vertical-align: middle;
+    color: #505050;
+    border-radius: 15px 0px 0px 15px;/*左側の角丸く*/
+}
+  
+.profile ul li:before{ 
+    display:inline-block; 
+    vertical-align: middle;
+    /*以下白丸つくる*/
+    content:'';
+    width:1em;
+    height: 1em;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.school-club {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-club img {
+    width: 480px;
+    height: 270px;
+    border-radius: 16px;
+}
+
+.school-club h3 {
+    margin-top: 8px;
+}
+
+.school-club p {
+    margin-top: 16px;
+}
+
+.school-club a {
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-top: 32px;
+}
+
+.favorite {
+    text-align: center;
+    padding: 180px 180px 240px 180px;
+    background-image: url(images/laptop.jpg);
+    background-size: cover;
+}
+
+.favorite h2 {
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    color: #000;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+}
+
+.favorite-contents {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite-content {
+    width: 320px;
+    padding: 40px;
+    background-color: rgba(241, 204, 148, 0.9);
+    border-radius: 16px;
+}
+
+.favorite-content h3 {
+    font-size: 24px;
+    margin-top: 32px;
+}
+
+.favorite-content p {
+    font-size: 16px;
+    /*text-align-last: left;*/
+    margin-top: 32px;
+    text-align: center;
+}
+
+.favorite-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.works {
+    padding: 180px;
+    text-align: center;
+    background-color: #fffdf3;
+}
+
+.works h2 {
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+}
+
+.works-content {
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    text-align-last: left;
+}
+
+.works-content img {
+    width: 320px;
+    height: 180px;
+}
+
+.works-content h3 {
+    font-size: 28px;
+}
+
+.works-content p {
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.works-content span {
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.works-text {
+    margin-left: 32px;
+}
+
+.contact {
+    padding: 180px 370px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+}
+
+.contact p {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    text-align-last: left;
+}
+
+.contact a {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.contact .sns {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .sns-twitter {
+    background-color: #00acee;
+}
+
+.contact .sns-facebook {
+    background-color: #3b5998;
+}
+
+.contact .sns-website {
+    background-color: #333333;
+}
+
+footer {
+    height: 80px;
+    background-color: #edece7;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
